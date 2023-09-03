@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* _______ utility classes start ______________ */
+
+.head-font{
+    font-size: 2.8rem;
+}
+.sub-font{
+    font-size: 2.1rem;
+}
+.normal-font{
+    font-size: 1.5rem;
+}
+.text-uppercase{
+    text-transform: uppercase;
+}
+.text-justify{
+    text-align: justify;
+}
+/* _______ utility classes end______________ */
+.container{
+    width: 70%;
+    margin: auto;
+    padding: 0px 2px;
+    padding-top: 20px;
+}
+.container::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.container-items{
+    padding: 0px 0.5em;
+}
+.item-1{
+    width: 30%;
+    float: left;
+}
+.item-2{
+    width: 70%;
+    float: right;
+}
+.img-container img{
+    width: 100%;
+}
+.profile-container{
+    padding-left: 5em;
+    padding-right: 2em;
+}
+.profile-container h2{
+    margin-bottom: 0.2em;
+}
+.profile-container p{
+    margin-top: 0.8em;
+}
+/* .profile-line{}    */
+.person-name{
+    text-transform: uppercase;
+    margin-top: 2em;
+}
+.person-name .head-font{
+    color: rgb(255, 180, 6);
+}
+.contacts-container{
+    margin-top: 2em;
+}
+.contact-txt{
+    
+}
+.contacts-container hr{
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+}
+.outgoing-call img{
+    width: 2.5rem;
+}
+/* .contacts-imgs{
+    padding: 2em;
+} */
+.outgoing-call span{
+    /* border: 1px solid black; */
+    margin-left: 0.5em;
+    position: relative;
+    top: -0.5em;
+}
+.outgoing-call span a{
+    text-decoration: none;
+}
+.order-list{
+    /* background-color: brown; */
+    text-align: start;
+    font-size: 1.7rem;
+    padding-left: 1em;
+    box-sizing: border-box;
+}
+/* ___________ MediaQueries ___________________________________ */
+
+@media screen and (max-width : 1024px) {
+    .container{
+        width: 80%;
+    }
+    html{
+        font-size: 9px;
+    }
+}
+@media screen and (max-width : 800px) {
+    .container{
+        width: 100%;
+    }
+    html{
+        font-size: 8px;
+    }
+}
+@media screen and (max-width : 700px) {
+    html{
+        font-size: 7;
+    }
+}
+@media screen and (max-width : 600px) {
+    .profile-container{
+        padding-left: 2em;
+        padding-right: 1em;
+    }
+    html{
+        font-size: 6px;
+    }
+}
+@media screen and (max-width : 500px) {
+
+}
+@media screen and (max-width : 400px) {
+    .profile-container p{
+        margin-top: 0.8em;
+        max-height: 70px;
+        overflow: auto;
+    }
+}

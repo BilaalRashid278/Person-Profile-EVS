@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 1150px;
+}
+
+.contianer{
+    width: 90%;
+    display: table;
+    content: "";
+    clear: both;
+    box-sizing: border-box;
+    padding: 0px 40px;
+    margin: auto;
+}
+.left-item{
+    width: 40%;
+    /* background-color: blue; */
+    float: left;
+}
+.right-item{
+    width: 60%;
+    float: right;
+}
+.img-container {
+    width: 70%;
+}
+.img-container img{
+    width: 100%;
+    border-radius: 2px;
+}
+.person-name{
+    margin-top: 25px;
+}
+.person-name h1{
+    margin: auto;
+    /* background-color: red; */
+    text-transform: uppercase;
+}
+.person-name .child-2{
+    color: rgb(255, 180, 6);
+    font-size: 2.5rem;
+    margin-bottom: 3px;
+}
+.james{
+    font-size: 2rem;
+}
+.person-name .C-designer{
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+.contact-txt{
+    font-size: 1.8rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.contacts-container{
+    margin-top: 30px;
+}
+.icons-img{
+    margin-top: 5px;
+}
+.cell-num{
+    display: inline;
+    position: relative;
+    top: -7px;
+    margin-left: 0.5em;
+    font-size: 1.5rem;
+}
+.order-list{
+    /* background-color: brown; */
+    text-align: start;
+    font-size: 1.7rem;
+    padding-left: 22px;
+    box-sizing: border-box;
+}
+/* ____________Start right styling _____________ */
+
+.profile-container p{
+    font-size: 1.5rem;
+}
+#profile-text-container{
+    height: 19rem;
+    padding: 5px 10px;
+}
+.head-font{
+    font-size: 2.5rem;
+}
+.sub-font{
+    font-size: 2rem;
+}
+.defalut-font{
+    font-size: 1.4rem;
+}
+.space-adjust{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* ____________ End right styling _____________ */
+
